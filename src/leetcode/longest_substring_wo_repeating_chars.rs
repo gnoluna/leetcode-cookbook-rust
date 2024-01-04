@@ -1,32 +1,32 @@
-use std::{cmp, collections::HashMap};
+use std::collections::HashMap;
 pub struct Solution;
 
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
-        let mut map = HashMap::new();
+        let mut map: HashMap<char, usize> = HashMap::new();
         let mut max_length = 0;
-        let mut last_idx = 0;
-        for (i, c) in s.chars().enumerate() {
+        let mut i: usize = 0;
+        for (j, c) in s.chars().enumerate() {
             match map.get(&c) {
                 Some(idx) => {
-                    if max_length == 0 {
-                        max_length = i;
+                    let _idx = *idx;
+                    for x in i.._idx {
+                        map.remove_entry(&s.chars().nth(x).unwrap());
                     }
-                    let length = i - idx;
-                    if length > max_length {
-                        max_length = length;
-                    }
-                    map.insert(c, i);
-                    last_idx = i;
+                    i = _idx + 1;
                 }
-                None => {
-                    map.insert(c, i);
-                }
+                None => {}
+            }
+            map.insert(c, j);
+            let length = j - i + 1;
+            if length > max_length {
+                max_length = length;
             }
         }
-        cmp::max(s.len() - last_idx, max_length) as i32
+        max_length as i32
     }
 }
+
 #[cfg(test)]
 mod tests {
     use crate::leetcode::longest_substring_wo_repeating_chars::Solution;

@@ -10,10 +10,10 @@ fn main() {
         Some(Box::new(ListNode::from_number(342))),
         Some(Box::new(ListNode::from_number(465))),
     );
-    println!("001. Add two numbers: {:?}", &res);
+    println!("002. Add two numbers: {:?}", &res);
 
     let res = leetcode::longest_substring_wo_repeating_chars::Solution::length_of_longest_substring(
-        "bbbbbb".to_string()
+        "abcabcbb".to_string()
     );
-    println!("001. Longest substring without repeating characters: {:?}", &res);
+    println!("003. Longest substring without repeating characters: {:?}", &res);
 }
