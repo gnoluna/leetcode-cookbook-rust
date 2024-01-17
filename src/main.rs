@@ -25,4 +25,8 @@ fn main() {
         vec![2],
     );
     println!("004. Median of Two Sorted Arrays: {:?}", &res);
+
+    let res =
+        leetcode::longest_palindromic_substring::Solution::longest_palindrome("babad".to_string());
+    println!("005. Longest Palindromic Substring: {:?}", &res);
 }
