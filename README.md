@@ -5,7 +5,7 @@
 - [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [x] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
-
+- [x] [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 ## How to use template
 
 Use [cargo-generate](https://github.com/cargo-generate/cargo-generate)

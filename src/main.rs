@@ -29,4 +29,7 @@ fn main() {
     let res =
         leetcode::longest_palindromic_substring::Solution::longest_palindrome("babad".to_string());
     println!("005. Longest Palindromic Substring: {:?}", &res);
+
+    let res = leetcode::zigzag_conversion::Solution::convert("PAYPALISHIRING".to_string(), 3);
+    println!("006. Zigzag Conversion: {:?}", &res);
 }
