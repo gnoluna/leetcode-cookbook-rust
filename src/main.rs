@@ -32,4 +32,6 @@ fn main() {
 
     let res = leetcode::zigzag_conversion::Solution::convert("PAYPALISHIRING".to_string(), 3);
     println!("006. Zigzag Conversion: {:?}", &res);
+    let res = leetcode::reverse_integer::Solution::reverse_integer(123);
+    println!("007. Reverse Integer: {:?}", &res);
 }

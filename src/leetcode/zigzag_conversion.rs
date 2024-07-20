@@ -3,7 +3,7 @@ pub struct Solution;
 impl Solution {
     pub fn convert(s: String, num_rows: i32) -> String {
         if num_rows == 1 {
-            return s
+            return s;
         }
         let mut rows: Vec<Vec<char>> = vec![Vec::new(); num_rows as usize];
         let mut up: bool = false;
@@ -40,9 +40,6 @@ mod tests {
 
     #[test]
     fn very_short() {
-        assert_eq!(
-            Solution::convert("AB".to_string(), 1),
-            "AB".to_string()
-        );
+        assert_eq!(Solution::convert("AB".to_string(), 1), "AB".to_string());
     }
 }

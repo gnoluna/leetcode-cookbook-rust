@@ -68,7 +68,7 @@ mod tests {
         let res = ListNode::from_number(321);
         assert_eq!(res.sum(), 321)
     }
-    
+
     #[test]
     fn test_add_two_numbers() {
         assert_eq!(

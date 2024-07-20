@@ -3,7 +3,7 @@ pub struct Solution;
 impl Solution {
     pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
         let total = nums1.len() + nums2.len();
-        let (mut iter_1,mut iter_2) = (nums1.into_iter(), nums2.into_iter());
+        let (mut iter_1, mut iter_2) = (nums1.into_iter(), nums2.into_iter());
         let (mut next_1, mut next_2) = (iter_1.next(), iter_2.next());
         let (mut last, mut cur) = (0, 0);
         let mut idx = 0;
@@ -30,14 +30,13 @@ impl Solution {
                     next_2 = iter_2.next();
                 }
                 (None, None) => panic!(),
-                
             }
             idx += 1;
             if idx == total / 2 + 1 {
                 if total % 2 == 0 {
                     return (cur + last) as f64 / 2.0;
                 } else {
-                    return cur as f64
+                    return cur as f64;
                 }
             }
         }
