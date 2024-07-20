@@ -7,6 +7,7 @@
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 - [x] [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - [x] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+- [x] [3216. Lexicographically Smallest String After a Swap](https://leetcode.com/contest/weekly-contest-406/problems/lexicographically-smallest-string-after-a-swap/)
 
 
 ## How to use template

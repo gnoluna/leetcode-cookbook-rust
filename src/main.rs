@@ -32,6 +32,15 @@ fn main() {
 
     let res = leetcode::zigzag_conversion::Solution::convert("PAYPALISHIRING".to_string(), 3);
     println!("006. Zigzag Conversion: {:?}", &res);
+
     let res = leetcode::reverse_integer::Solution::reverse_integer(123);
     println!("007. Reverse Integer: {:?}", &res);
+
+    let res: String = leetcode::lexicographically_smallest_string::Solution::get_smallest_string(
+        "43520".to_string(),
+    );
+    println!(
+        "3216. Lexicographically Smallest String After a Swap: {:?}",
+        &res
+    );
 }
