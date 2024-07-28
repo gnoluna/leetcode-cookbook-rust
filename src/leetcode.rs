@@ -6,3 +6,4 @@ pub mod median_two_sorted_arrays;
 pub mod reverse_integer;
 pub mod two_sum;
 pub mod zigzag_conversion;
+pub mod delete_nodes_from_linked_list;

@@ -8,6 +8,7 @@
 - [x] [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - [x] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 - [x] [3216. Lexicographically Smallest String After a Swap](https://leetcode.com/contest/weekly-contest-406/problems/lexicographically-smallest-string-after-a-swap/)
+- [x] [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/contest/weekly-contest-406/problems/delete-nodes-from-linked-list-present-in-array/description/)
 
 
 ## How to use template
