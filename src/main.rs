@@ -43,4 +43,12 @@ fn main() {
         "3216. Lexicographically Smallest String After a Swap: {:?}",
         &res
     );
+
+    // let res = leetcode::delete_nodes_from_linked_list::Solution::modified_list(
+    //     [1,2,3],[1,2,3,4,5]
+    // );
+    // println!(
+    //     "3216. Lexicographically Smallest String After a Swap: {:?}",
+    //     &res
+    // );
 }
