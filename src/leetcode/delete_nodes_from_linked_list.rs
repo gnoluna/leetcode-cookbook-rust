@@ -1,6 +1,5 @@
-use std::{borrow::BorrowMut, collections::HashSet};
+use std::{collections::HashSet};
 
-use super::lexicographically_smallest_string;
 
 pub struct Solution;
 
@@ -18,7 +17,7 @@ impl ListNode {
     }
 }
 
-fn construct_list(nums: Vec<i32>) -> Option<Box<ListNode>> {
+pub fn construct_list(nums: Vec<i32>) -> Option<Box<ListNode>> {
     let mut last_node: Option<Box<ListNode>> = None;
     nums.iter().for_each(|n| {
         let mut new_node = ListNode::new(*n);
@@ -33,7 +32,7 @@ impl Solution {
         let nums_set: HashSet<i32> = nums.into_iter().collect();
         let mut dummy = Some(Box::new(ListNode { val: 0, next: head }));
         let mut current = dummy.as_mut();
-    
+
         while let Some(node) = current {
             while let Some(next) = node.next.as_mut() {
                 if nums_set.contains(&next.val) {
@@ -44,7 +43,7 @@ impl Solution {
             }
             current = node.next.as_mut();
         }
-    
+
         dummy.unwrap().next
     }
 }

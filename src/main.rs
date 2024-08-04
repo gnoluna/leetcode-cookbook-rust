@@ -44,11 +44,16 @@ fn main() {
         &res
     );
 
-    // let res = leetcode::delete_nodes_from_linked_list::Solution::modified_list(
-    //     [1,2,3],[1,2,3,4,5]
-    // );
-    // println!(
-    //     "3216. Lexicographically Smallest String After a Swap: {:?}",
-    //     &res
-    // );
+    let res = leetcode::delete_nodes_from_linked_list::Solution::modified_list(
+        vec![1, 2, 3],
+        leetcode::delete_nodes_from_linked_list::construct_list(vec![1, 2, 3, 4, 5]),
+    );
+    println!(
+        "3217. Delete Nodes From Linked List Present in Array: {:?}",
+        &res
+    );
+
+    let res =
+        leetcode::minimum_cost_for_cutting_cake::Solution::minimum_cost(3, 2, vec![1, 3], vec![5]);
+    println!("Minimum Cost for Cutting Cake I: {:?}", &res);
 }

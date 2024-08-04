@@ -2,7 +2,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn reverse_integer(num: i32) -> i32 {
-        let sign: i8 = if (num > 0) { 1 } else { -1 };
+        let sign: i8 = if num > 0 { 1 } else { -1 };
         let mut number: i32 = num * sign as i32;
         let mut rev: i64 = 0;
         while number > 0 {

@@ -7,8 +7,10 @@
 - [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)
 - [x] [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - [x] [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+[Weekly contest 406](https://leetcode.com/contest/weekly-contest-406/)
 - [x] [3216. Lexicographically Smallest String After a Swap](https://leetcode.com/contest/weekly-contest-406/problems/lexicographically-smallest-string-after-a-swap/)
 - [x] [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/contest/weekly-contest-406/problems/delete-nodes-from-linked-list-present-in-array/description/)
+- [x] [Q3. Minimum Cost for Cutting Cake I](https://leetcode.com/contest/weekly-contest-406/problems/minimum-cost-for-cutting-cake-i/)
 
 
 ## How to use template
